@@ -10,7 +10,7 @@ With this repository I will show you how to deploy Jupiter-lab on Docker. Alread
 
 1) Download this repository locally and using the terminal/command-propt direct you there
 
-1) Run the following code o to be able to load the example files inside the folder "Notebook"(an alternative can be create locally a new folder  with inside a folder called "Notebook" which contain the file you need as data, jupyter-notebook and so on..):
+1) Run the following code to download the dockJup-lab image and run then create a container showing the example files located inside the folder "Notebook"(an alternative can be to create a new folder with inside a folder called "Notebook" that contains the files you need):
 ```
 docker run -d -v "/${PWD}/Notebook:/SRC/Notebook" --name "dockjup-lab" -p 8888:8888 --restart always --shm-size 2g sicilian4ever/dockjup-lab
 ```
