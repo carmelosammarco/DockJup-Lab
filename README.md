@@ -28,7 +28,7 @@ docker run -d -v "/${PWD}/Notebook:/SRC/Notebook" --name "dockjup-lab" -p 8888:8
     <img width="800" alt="Screenshot" src="DOC/Screenshot.png" style="border: 5px solid black">
 </center>
 
-## The Docker image of this project can be found in the official Docker registry accessible by using the link below:**
+## The Docker image of this project can be found in the official Docker registry accessible by using the link below:
 
 **[https://hub.docker.com/r/sicilian4ever/dockjup-lab](https://hub.docker.com/r/sicilian4ever/dockjup-lab)**
 
