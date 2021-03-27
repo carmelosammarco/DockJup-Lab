@@ -8,7 +8,9 @@ With this repository I will show you how to deploy Jupiter-lab on Docker. Alread
 
 ## Fast way to download the image and run the project:
 
-1) Run the following code on your terminal/command-propt (inside this repository so to be able to load the example files inside the folder "Notebook"):
+1) Download this repository locally and using the terminal/command-propt direct you there
+
+1) Run the following code o to be able to load the example files inside the folder "Notebook"(an alternative can be create locally a new folder  with inside a folder called "Notebook" which contain the file you need as data, jupyter-notebook and so on..):
 ```
 docker run -d -v "/${PWD}/Notebook:/SRC/Notebook" --name "dockjup-lab" -p 8888:8888 --restart always --shm-size 2g sicilian4ever/dockjup-lab
 ```
@@ -26,9 +28,8 @@ docker run -d -v "/${PWD}/Notebook:/SRC/Notebook" --name "dockjup-lab" -p 8888:8
     <img width="800" alt="Screenshot" src="DOC/Screenshot.png" style="border: 5px solid black">
 </center>
 
-**The Docker image of this project can be found in the official Docker registry accessible by using the link below:**
+## The Docker image of this project can be found in the official Docker registry accessible by using the link below:**
 
-[https://hub.docker.com/r/sicilian4ever/dockjup-lab](https://hub.docker.com/r/sicilian4ever/dockjup-lab)
-
+**[https://hub.docker.com/r/sicilian4ever/dockjup-lab](https://hub.docker.com/r/sicilian4ever/dockjup-lab)**
 
 Have fun!! :)
