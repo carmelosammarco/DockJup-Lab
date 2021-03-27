@@ -5,7 +5,7 @@ With this repository I will show you how to deploy Jupiter-lab on Docker. Alread
 
 **However what if we are not satisfied with these images ready-to-run and we what to have one tailored to our needs?**
 
-After log-in to your personal space:
+After log-in to your personal space (Password=sicilian4ever):
 
 <center>
     <img width="800" alt="pwd" src="DOC/pwd.png" style="border: 5px solid black">
